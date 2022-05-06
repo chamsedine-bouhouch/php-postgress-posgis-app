@@ -1,0 +1,1 @@
+ALTER TABLE reseaux ALTER COLUMN id SET DEFAULT nextval('id_reseau_seq')

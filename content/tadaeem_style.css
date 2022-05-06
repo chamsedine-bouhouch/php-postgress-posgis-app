@@ -1,0 +1,105 @@
+#mapdiv {
+    height:100vh;
+}
+
+.col-xs-12, .col-xs-6, .col-xs-4 {
+    padding:3px;
+}
+
+#divProject {
+    background-color: beige;
+}
+
+#divBUOWL {
+    background-color: #ffffb3;
+}
+
+#divEagle {
+    background-color: #ccffb3;
+}
+
+#divRaptor {
+    background-color: #e6ffff;
+}
+
+.errorMsg {
+    padding:0;
+    text-align:center;
+    background-color:darksalmon;
+}
+
+.text-labels {
+    font-size:16px;
+    font-weight: bold;
+    color:red;
+    background: aqua;
+    text-align: center;
+    display: inline-block;
+    padding: 5pt;
+    border: 3px double darkred;
+    border-radius: 5pt;
+    margin-left: -15pt;
+    margin-top: -8pt;
+}
+
+.eagle-labels {
+    font-size:12px;
+    font-weight: bold;
+    color:white;
+    background: black;
+    text-align: center;
+    display: inline-block;
+    padding: 5pt;
+    border: 3px double red;
+    border-radius: 5pt;
+    margin-left: -20pt;
+    margin-top: -32pt;
+}
+
+form{
+    display:none;
+}
+.modal {
+    z-index: 2001; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: none; /* Hidden by default */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    color: saddlebrown;
+    padding: 20px;
+    margin-top: 5%;
+    background-color:antiquewhite;
+    height:80%;
+    overflow-y:auto;
+}
+
+.tblHeader {
+    background-color: wheat
+}
+.btnSurveys, #btnreseauUpdate, .featureID, #ReseauGeoJSON {
+    display:none;
+}
+
+#btnEditReseau,
+#btnEditReseauGeometry,
+#btnEditArmoire,
+#btnEditSupports,
+#btnToggleReseauGeometry
+{
+    color:#ff9933;
+}
+
+#btnDeleteReseau,
+#btnDeleteArmoire,
+#btnDeleteSupports{
+
+    color:darkred;
+}
+
+ 
+
+ 

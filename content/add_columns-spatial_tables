@@ -1,0 +1,19 @@
+-- ALTER TABLE reseaux ADD COLUMN created date;
+-- ALTER TABLE reseaux ADD COLUMN createdby varchar(120);
+-- ALTER TABLE reseaux ADD COLUMN modified date;
+-- ALTER TABLE reseaux ADD COLUMN modifiedby varchar(120);
+
+-- ALTER TABLE armoires ADD COLUMN created date;
+-- ALTER TABLE armoires ADD COLUMN createdby varchar(120);
+-- ALTER TABLE armoires ADD COLUMN modified date;
+-- ALTER TABLE armoires ADD COLUMN modifiedby varchar(120);
+
+-- ALTER TABLE foyers ADD COLUMN created date;
+-- ALTER TABLE foyers ADD COLUMN createdby varchar(120);
+-- ALTER TABLE foyers ADD COLUMN modified date;
+-- ALTER TABLE foyers ADD COLUMN modifiedby varchar(120);
+
+-- ALTER TABLE points_lumineux ADD COLUMN created date;
+-- ALTER TABLE points_lumineux ADD COLUMN createdby varchar(120);
+-- ALTER TABLE points_lumineux ADD COLUMN modified date;
+-- ALTER TABLE points_lumineux ADD COLUMN modifiedby varchar(120);

@@ -1,0 +1,7 @@
+SELECT u.username, g.name AS group_name, g.description AS group_descr, 
+       p.name as page_name, p.description as page_descr, p.url
+FROM users u JOIN user_group_link gu ON u.id=gu.user_id
+JOIN groups g ON gu.group_id=g.id 
+JOIN pages p ON g.id=p.group_id
+-- WHERE username= 'brmanis'
+ORDER BY group_name
